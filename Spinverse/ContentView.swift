@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Diciee
+//  Spinverse
 //
 //  Created by mai khaled on 02/03/2025.
 //
@@ -19,13 +19,9 @@ struct ContentView: View {
             VStack {
                 Spacer()
 
-                // EarthView in the center, large size
                 EarthView()
                     .frame(width: 400, height: 400)
                     .padding(.bottom, 20)
-
-
-                // "Roll" button (you can connect it to custom logic)
     
 
                 Spacer()

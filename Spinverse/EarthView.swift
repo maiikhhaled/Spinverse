@@ -1,9 +1,11 @@
 //
-//  DicieeApp.swift
-//  Diciee
+//  Spinverse.swift
+//  Spinverse
 //
 //  Created by mai khaled on 02/03/2025.
 //
+
+
 import SwiftUI
 import SceneKit
 
@@ -13,22 +15,22 @@ struct EarthView: UIViewRepresentable {
         let sceneView = SCNView()
         sceneView.backgroundColor = .clear
         // Load the 3D earth scene
-        if let scene = try? SCNScene(named: "Scene.usdz") {
+        if let scene = SCNScene(named: "Scene.usdz") {
             sceneView.scene = scene
             sceneView.autoenablesDefaultLighting = true
-            sceneView.allowsCameraControl = false // we handle gestures manually
+            sceneView.allowsCameraControl = false
 
             if let earth = scene.rootNode.childNodes.first {
                 earth.name = "Earth"
 
-                // Start a slow default spin around Y axis
+                // Start a spin around Y axis
                 let baseSpin = SCNAction.rotateBy(x: 1, y: 1, z: 1, duration: 5)
                 let spinForever = SCNAction.repeatForever(baseSpin)
                 earth.runAction(spinForever, forKey: "baseSpin")
             }
         }
 
-        // Add pan gesture for user interaction
+        // Add pan gesture
         let panGesture = UIPanGestureRecognizer(
             target: context.coordinator,
             action: #selector(Coordinator.handlePan(_:))
@@ -72,14 +74,14 @@ struct EarthView: UIViewRepresentable {
                 previousLocation = location
 
             case .ended, .cancelled:
-                // Calculate velocity (speed of swipe)
+                // Calculate speed of swipe
                 let velocity = gesture.velocity(in: gesture.view)
                 let velocityX = Float(velocity.x) * 0.00005
                 let velocityY = Float(velocity.y) * 0.00005
 
                 let duration: TimeInterval = 2.0
 
-                // Inertia effect: keep spinning based on swipe speed
+                // keep spinning based on swipe speed
                 let inertia = SCNAction.customAction(duration: duration) { node, elapsed in
                     let t = 1 - (Float(elapsed) / Float(duration)) // Smooth deceleration
                     earth.eulerAngles.y += velocityX * t

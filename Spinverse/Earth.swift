@@ -1,6 +1,6 @@
 //
-//  Earth.swift
-//  Diciee
+//  Spinverse.swift
+//  Spinverse
 //
 //  Created by mai khaled on 10/05/2025.
 //

@@ -6,19 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B8DC24542DCDCE4E00DF2EB9 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DC24532DCDCE4E00DF2EB9 /* UIColorHex.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		B891276F2D74C1D9001A4991 /* Diciee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diciee.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8DC24532DCDCE4E00DF2EB9 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		B891276F2D74C1D9001A4991 /* Spinverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spinverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B89127712D74C1D9001A4991 /* Diciee */ = {
+		B89127712D74C1D9001A4991 /* Spinverse */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Diciee;
+			path = Spinverse;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -37,8 +32,7 @@
 		B89127662D74C1D9001A4991 = {
 			isa = PBXGroup;
 			children = (
-				B8DC24532DCDCE4E00DF2EB9 /* UIColorHex.swift */,
-				B89127712D74C1D9001A4991 /* Diciee */,
+				B89127712D74C1D9001A4991 /* Spinverse */,
 				B89127702D74C1D9001A4991 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,7 +40,7 @@
 		B89127702D74C1D9001A4991 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B891276F2D74C1D9001A4991 /* Diciee.app */,
+				B891276F2D74C1D9001A4991 /* Spinverse.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B891276E2D74C1D9001A4991 /* Diciee */ = {
+		B891276E2D74C1D9001A4991 /* Spinverse */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B891277D2D74C1DB001A4991 /* Build configuration list for PBXNativeTarget "Diciee" */;
+			buildConfigurationList = B891277D2D74C1DB001A4991 /* Build configuration list for PBXNativeTarget "Spinverse" */;
 			buildPhases = (
 				B891276B2D74C1D9001A4991 /* Sources */,
 				B891276C2D74C1D9001A4991 /* Frameworks */,
@@ -67,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B89127712D74C1D9001A4991 /* Diciee */,
+				B89127712D74C1D9001A4991 /* Spinverse */,
 			);
-			name = Diciee;
+			name = Spinverse;
 			packageProductDependencies = (
 			);
 			productName = Diciee;
-			productReference = B891276F2D74C1D9001A4991 /* Diciee.app */;
+			productReference = B891276F2D74C1D9001A4991 /* Spinverse.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B891276A2D74C1D9001A4991 /* Build configuration list for PBXProject "Diciee" */;
+			buildConfigurationList = B891276A2D74C1D9001A4991 /* Build configuration list for PBXProject "Spinverse" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -105,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B891276E2D74C1D9001A4991 /* Diciee */,
+				B891276E2D74C1D9001A4991 /* Spinverse */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DC24542DCDCE4E00DF2EB9 /* UIColorHex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Diciee/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Spinverse/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -273,7 +266,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maiikhhaled.Diciee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maiikhhaled.Spinverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,7 +281,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Diciee/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Spinverse/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -301,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.maiikhhaled.Diciee;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maiikhhaled.Spinverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B891276A2D74C1D9001A4991 /* Build configuration list for PBXProject "Diciee" */ = {
+		B891276A2D74C1D9001A4991 /* Build configuration list for PBXProject "Spinverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B891277B2D74C1DB001A4991 /* Debug */,
@@ -321,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B891277D2D74C1DB001A4991 /* Build configuration list for PBXNativeTarget "Diciee" */ = {
+		B891277D2D74C1DB001A4991 /* Build configuration list for PBXNativeTarget "Spinverse" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B891277E2D74C1DB001A4991 /* Debug */,
