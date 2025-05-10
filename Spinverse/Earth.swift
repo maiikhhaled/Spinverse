@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 @main
-struct MyDiceApp: App {
+struct SpinverseApp : App {
     var body: some Scene {
         WindowGroup {
             ContentView()
